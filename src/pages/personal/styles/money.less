@@ -1,0 +1,55 @@
+@import "../../../config";
+
+.money-wrap{
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: .25rem auto 0;
+    box-shadow: 0 0 15px 0 rgba(1,45,103,.09);
+    border-radius: 4px;
+}
+.money-wrap:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.bg1{
+    position: absolute;
+    left: -.2rem;
+    top: -.1rem;
+    width: .45rem;
+}
+.bg2{
+    position: absolute;
+    right: .1rem;
+    top: -.17rem;
+    width: .62rem;
+}
+.container{
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+}
+.item{
+    border-radius: 8px;
+    min-width: 44% !important;
+    flex: 0 !important;
+    background-color: #44af69;
+    padding: 10px 15px;
+}
+.item:first-of-type{
+    background-color: #878ef9;
+}
+.title{
+    color: rgba(221, 221, 221, 0.8);
+    font-size: 15px;
+}
+.value{
+    font-size: 20px;
+    margin: 10px 0 6px;
+}
+.freeze{
+    color: rgba(221, 221, 221, 0.8);
+    font-size: 13px;
+}

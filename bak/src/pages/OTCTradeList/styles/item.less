@@ -1,0 +1,87 @@
+@import "../../../config";
+.container{
+    margin: 8px 0;
+    padding: 9px 0 3px;
+    background-color: @sectionColor;
+}
+.info{
+    justify-content: space-between;
+}
+.info:before{
+    content:'';
+    height: 15px;
+    width: 4px;
+    background-color: #2ab759;
+}
+.nickname{
+    font-size: 16px;
+    text-indent: 9px;
+}
+.money{
+    width: 43%;
+    text-align: left;
+    padding-left: 0.13rem;
+}
+.price{
+    font-size: 16px;
+}
+.unit{
+    color: #dddddd;
+    margin-left: 3px;
+}
+.detail{
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 8px;
+    height: 65px;
+}
+.trades{
+    padding-left: 12px;
+    height: 100%;
+}
+.trade-num{
+    color: #ddd;
+    margin-bottom: 7px;
+    padding-top: 5px;
+}
+.pay-type{
+}
+.alipay:before{
+    content:'\e62f';
+    font-family: iconfont;
+    color: #00aaee;
+    font-size: 20px;
+}
+.yhpay:before{
+    content:'\e633';
+    font-family: iconfont;
+    color: #fb9f18;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.limit-num{
+    width: 43%;
+    height: 45px;
+    color: #ddd;
+    position: relative;
+    padding-left: 0.13rem;
+}
+.limit-num:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+}
+.limit,.num{
+    text-align: left;
+}
+.limit{
+    padding-top: 5px;
+    margin-bottom: 12px;
+    white-space: nowrap;
+}
+
+
+

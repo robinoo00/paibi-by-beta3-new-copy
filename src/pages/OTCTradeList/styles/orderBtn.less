@@ -1,0 +1,27 @@
+
+.container{
+    position: fixed;
+    right: 20px;
+    bottom: 12%;
+    width: .5rem;
+    height: .5rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(102, 102, 102, 0.7);
+    border-radius: 50%;
+    opacity: .7;
+}
+.container:before,.container:after{
+    content:'';
+    display: block;
+    position: absolute;
+    width: 44%;
+    height: 2px;
+    background-color: #00aaee;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.container:after{
+    height: 44%;
+    width: 2px;
+}

@@ -1,0 +1,50 @@
+@import "../../config";
+.page-header {
+    height: .51rem;
+}
+
+.page-header .header-wrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: @sectionColor2;
+    z-index: 100;
+}
+
+.page-header h3 {
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .16rem;
+    color: @fontColor2;
+    font-weight: 400;
+}
+
+.page-header .nav-left, .page-header .nav-right,.page-header .icon-back{
+    position: absolute;
+    height: .5rem;
+    line-height: .5rem;
+    top: 0;
+    padding: 0 .15rem;
+    color: @fontColor2;
+}
+
+.page-header .nav-left {
+    left: 0;
+}
+
+.page-header .nav-right {
+    right: 0;
+}
+.page-header .nav-right a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.icon-back:before{
+    content:'\e649';
+    font-family: iconfont;
+    color: @fontColor2;
+    font-size: 23px;
+}

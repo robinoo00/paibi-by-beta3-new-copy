@@ -1,0 +1,50 @@
+@import "../../../config";
+
+.container{
+    background-color: @sectionColor;
+    padding: .15rem 0;
+    margin: 1px 0 15px;
+}
+.name-pay{
+    justify-content: space-between;
+}
+.name-pay:before{
+    content:'';
+    position: absolute;
+    height: 15px;
+    width: 4px;
+    background-color: #2ab759;
+}
+.name{
+    text-align: left;
+    text-indent: 15px;
+    font-size: 16px;
+}
+.pay-type{
+    margin-right: 15px;
+}
+.alipay:before{
+    content:'\e62f';
+    font-family: iconfont;
+    color: #00aaee;
+    font-size: 20px;
+}
+.yhpay:before{
+    content:'\e633';
+    font-family: iconfont;
+    color: #fb9f18;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.trade-detail{
+    justify-content: space-between;
+    padding: 20px 15px 0;
+}
+.num{
+    font-size: 16px;
+}
+.title{
+    color: #ddd;
+    font-size: 13px;
+    margin-left: 3px;
+}

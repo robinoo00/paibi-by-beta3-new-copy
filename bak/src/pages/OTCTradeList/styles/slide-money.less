@@ -1,0 +1,26 @@
+.container{
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    animation: show .3s ease;
+    animation-fill-mode:forwards
+}
+.container div{
+    text-align: center;
+    height: .4rem;
+    line-height: .4rem;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+}
+.choose{
+    color: #296de7 !important;
+}
+@keyframes show {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1.6rem;
+    }
+}
+

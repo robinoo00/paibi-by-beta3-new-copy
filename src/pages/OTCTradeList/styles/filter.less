@@ -1,0 +1,38 @@
+@import "../../../config";
+@chooseColor:#00aaee;
+.container{
+    justify-content: space-between;
+    padding: 10px 8px;
+    background-color: @sectionColor2;
+}
+.item-wrap{
+    margin: 0 5px;
+}
+.item-check:before,.item-checked:before{
+    font-family: iconfont;
+    margin-right: 3px;
+}
+.item-check:before{
+    content:'\e603';
+}
+.item-checked{
+    color: @chooseColor;
+}
+.item-checked:before{
+    content:'\e622';
+    color: @chooseColor;
+}
+.item-slide:after{
+    content:'\e602';
+    font-family: iconfont;
+    margin-left: 3px;
+}
+.item-slide-checked{
+    color: @chooseColor;
+}
+.item-slide-checked:after{
+    content:'\e602';
+    font-family: iconfont;
+    margin-left: 3px;
+    color: @chooseColor;
+}
