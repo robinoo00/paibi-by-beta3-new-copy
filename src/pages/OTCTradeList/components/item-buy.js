@@ -3,8 +3,13 @@ import styles from '../styles/item.less'
 import {Flex} from 'antd-mobile'
 import router from 'umi/router'
 
+const link = (item) => () =>{
+    // sessionStorage.setItem('tradeItem',JSON.stringify(item))
+    router.push({pathname:'OTCTradeDetail',query:{no:item.单号,price:item.单价}})
+}
+
 const Item = ({item}) => (
-    <div styleName="container" onClick={() => {router.push({pathname:'OTCTradeDetail',query:{}})}}>
+    <div styleName="container" onClick={link(item)}>
         <Flex styleName="info">
             <Flex.Item styleName="nickname">{item.昵称}</Flex.Item>
             <Flex styleName="money">
@@ -19,7 +24,7 @@ const Item = ({item}) => (
                 </div>
                 <Flex>
                     <div styleName="alipay"></div>
-                    <div styleName="yhpay"></div>
+                    {/*<div styleName="yhpay"></div>*/}
                 </Flex>
             </div>
             <div styleName="limit-num">

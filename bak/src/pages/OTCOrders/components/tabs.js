@@ -34,16 +34,16 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
     getList:() => {
         dispatch({
-            type: 'OTCOrders/getList',
+            type: 'OTCMyReceiveOrders/getList',
         })
     },
     choose:(tab, index) => {
         dispatch({
-            type:'OTCOrders/assignTabs',
+            type:'OTCMyReceiveOrders/assignTabs',
             title:tab.title
         })
         dispatch({
-            type: 'OTCOrders/getList',
+            type: 'OTCMyReceiveOrders/getList',
         })
     }
 })

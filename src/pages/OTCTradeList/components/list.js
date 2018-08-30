@@ -8,15 +8,14 @@ class BuyList extends React.Component {
     renderRow = (item) => {
         return React.cloneElement(this.props.children, { item: item })
     }
-
     render() {
-        const hei = document.documentElement.clientHeight - 180;
+        const hei = document.documentElement.clientHeight - 140;
         const {...rest} = this.props;
         const list_name = rest.tabs.filter(item => item.choose)[0]['name']
         const list = rest[list_name]
         return (
             <div>
-                <Filter/>
+                {/*<Filter/>*/}
                 <ListView
                     dataSource={list.data}
                     renderRow={this.renderRow}

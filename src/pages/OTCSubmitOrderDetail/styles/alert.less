@@ -1,0 +1,42 @@
+@import "../../../config";
+
+.container{
+    display: block;
+}
+.list-item{
+    justify-content: space-between;
+    padding: 6px 0;
+}
+.title{
+    color: @grayColor2;
+    align-self: flex-start;
+    font-size: 14px;
+}
+.value{
+    font-size: 15px;
+    text-align: right;
+    align-self: flex-start;
+}
+.alipay{
+    font-size: 15px;
+    text-align: right;
+    align-self: flex-start;
+    position: relative;
+}
+.alipay:before{
+    content:'\e62f';
+    font-family: iconfont;
+    font-size: 23px;
+    color: #00aaee;
+    margin-right: 5px;
+    position: absolute;
+    top: -4px;
+    right: 0.43rem;
+}
+.tip{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.tip p{
+    text-align: left;
+}

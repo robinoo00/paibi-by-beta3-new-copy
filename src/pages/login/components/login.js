@@ -41,7 +41,7 @@ const Login = ({...rest}) => (
                 </Flex.Item>
                 <Flex.Item>
                     <input {...rest.form.getFieldProps('account', {
-                        initialValue: localStorage.getItem(config.ACCOUNT) === null ? '' : localStorage.getItem(config.ACCOUNT),
+                        initialValue: rest.account ? rest.account : '',
                         rules: [{
                             required: true, message: '请输入您的账号',
                         }],
@@ -54,7 +54,7 @@ const Login = ({...rest}) => (
                 </Flex.Item>
                 <Flex.Item>
                     <input {...rest.form.getFieldProps('password', {
-                        initialValue: localStorage.getItem(config.PASSWORD) === null ? '' : localStorage.getItem(config.PASSWORD),
+                        initialValue: rest.password,
                         rules: [{
                             required: true, message: '请输入登录密码',
                         }],

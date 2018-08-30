@@ -1,31 +1,40 @@
 import CSSModules from 'react-css-modules'
 import styles from '../styles/info.less'
 import {Flex} from 'antd-mobile'
+import {connect} from 'dva'
 
-const Info = () => (
+const Info = ({data}) => (
     <div styleName="container">
         <Flex styleName="name-pay">
-            <div styleName="name">梅赛德斯</div>
+            <div styleName="name">{data.昵称}</div>
             <Flex styleName="pay-type">
                 <div styleName="alipay"></div>
-                <div styleName="yhpay"></div>
+                {/*<div styleName="yhpay"></div>*/}
             </Flex>
         </Flex>
         <Flex styleName="trade-detail">
             <Flex>
-                <div styleName="num">98%</div>
+                <div styleName="num">{data.成交率 * 100}%</div>
                 <div styleName="title">成交率</div>
             </Flex>
             <Flex>
-                <div styleName="num">1,369</div>
+                <div styleName="num">{data.交易单}</div>
                 <div styleName="title">交易单</div>
             </Flex>
-            <Flex>
-                <div styleName="num">1,369</div>
-                <div styleName="title">放币时效</div>
-            </Flex>
+            {/*<Flex>*/}
+                {/*<div styleName="num">1,369</div>*/}
+                {/*<div styleName="title">放币时效</div>*/}
+            {/*</Flex>*/}
         </Flex>
     </div>
 )
 
-export default CSSModules(Info,styles)
+const mapStateToProps = state => ({
+    data:state.OTCTradeDetail.data
+})
+
+const mapDispatchToProps = dispatch => ({
+
+})
+
+export default connect(mapStateToProps,mapDispatchToProps)(CSSModules(Info,styles))

@@ -3,28 +3,28 @@ import styles from '../styles/item.less'
 import {Flex} from 'antd-mobile'
 import router from 'umi/router'
 
-const Item = ({}) => (
-    <div styleName="container" onClick={() => {router.push({pathname:'OTCTradeDetail',query:{}})}}>
+const Item = ({item}) => (
+    <div styleName="container" onClick={() => {router.push({pathname:'OTCTradeDetail',query:{no:item.单号,price:item.单价}})}}>
         <Flex styleName="info">
-            <Flex.Item styleName="nickname">皇家马德里(sell)</Flex.Item>
+            <Flex.Item styleName="nickname">{item.昵称}</Flex.Item>
             <Flex styleName="money">
-                <div styleName="price">3.99</div>
+                <div styleName="price">{item.单价.toFixed(2)}</div>
                 <div styleName="unit">CNY</div>
             </Flex>
         </Flex>
         <Flex styleName="detail">
             <div styleName="trades">
                 <div styleName="trade-num">
-                    交易时间
+                    {item.下单时间}
                 </div>
                 <Flex>
                     <div styleName="alipay"></div>
-                    <div styleName="yhpay"></div>
+                    {/*<div styleName="yhpay"></div>*/}
                 </Flex>
             </div>
             <div styleName="limit-num">
-                <div styleName="limit">金额 10,000-33,621.90</div>
-                <div styleName="num">数量 4810.00</div>
+                <div styleName="limit">金额 {(item.数量 * item.单价).toFixed(2)}</div>
+                <div styleName="num">数量 {item.数量}</div>
             </div>
         </Flex>
     </div>

@@ -1,10 +1,10 @@
-import config from "../../../utils/config";
+import params from "../../../utils/params";
 
 export default {
     namespace:'OTCWalletSettings',
     state:{
         list:[
-            {title:'支付宝',style:'alipay',styleChecked:'alipay-check',extra:'未设置',setting:false,key:config.ALIPAY}
+            {title:'支付宝',style:'alipay',styleChecked:'alipay-check',extra:'未设置',setting:false,key:params.EDIT_ALIPay}
         ]
     },
     subscriptions:{

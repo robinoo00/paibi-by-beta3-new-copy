@@ -2,6 +2,7 @@ import fetch from 'dva/fetch';
 import config from './config'
 import router from 'umi/router'
 import {Toast} from 'antd-mobile'
+import {sleep,test} from './common'
 
 function parseJSON(response) {
     return response.json();
@@ -24,26 +25,30 @@ function checkStatus(response) {
  * @return {object}           An object containing either "data" or "err"
  */
 export default function request(url, options) {
-    // const api = url.split('?')[0].split('/')[4];
-    const api = url.match(/api\/(\S*)?/)[1];
+    let key = localStorage.getItem(config.KEY);
+    // const cid  = localStorage.getItem(config.CID);
+    // const account  = localStorage.getItem(config.ACCOUNT);
+    let match = url.match(/api\/(\S*)?/);
+    if(!match){
+        match = url.match(/usdt\/(\S*)?/);
+    }
+    const api = match[1];
+    if(!key && api !='login' && api != 'register' && api != 'getcid'){
+        router.push('login');
+        return {data:''};
+        // test();
+        // setTimeout(() => {
+        //     request(url, options)
+        // },1000)
+    }
     if(!config.UN_SHOW_LOADING_URLS.includes(api)){
         window.loading('',0);
     }
-    if(!localStorage.getItem(config.KEY) && api !='login' && api != 'register'){
-        router.push('login');
-        return {data:''};
-    }
-    const test = localStorage.getItem('assdss')
-    console.log(test);
+
     if (options.type !== 'form' && options.method === 'POST' && typeof options.body !== 'undefined' && typeof options.body === 'object') {
         const body = options.body;
-        if (localStorage.getItem(config.KEY) && localStorage.getItem(config.CID) && localStorage.getItem(config.ACCOUNT)) {
-            const key = localStorage.getItem(config.KEY).replace(/\+/g, '%2B');
-            const cid  = localStorage.getItem(config.CID);
-            const account  = localStorage.getItem(config.ACCOUNT);
-            body['key'] = key;
-            body['cid'] = cid;
-            body['account'] = account;
+        if (key) {
+            body['key'] = key.replace(/\+/g, '%2B');
         }
         const keys = Object.keys(body);
         let querystring = '';
@@ -52,6 +57,9 @@ export default function request(url, options) {
         })
         querystring = querystring.substring(0, querystring.length - 1);
         options.body = querystring;
+    }
+    if(options.type === 'form'){
+        options.body.append('key',key.replace(/\+/g, '%2B'))
     }
     return fetch(url, options)
         .then(checkStatus)
@@ -77,9 +85,4 @@ export default function request(url, options) {
                 return {data:""};
             }
         });
-    // return fetch(url, options)
-    //     .then(checkStatus)
-    //     .then(parseJSON)
-    //     .then(data => ({data}))
-    //     .catch(err => ({err}));
 }

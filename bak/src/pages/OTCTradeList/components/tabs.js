@@ -46,7 +46,7 @@ const mapDispatchToProps = dispatch => ({
     },
     choose:(tab, index) => {
         if(index === 3){
-            router.push('OTCOrders')
+            router.push('OTCMyReceiveOrders')
             return;
         }
         dispatch({

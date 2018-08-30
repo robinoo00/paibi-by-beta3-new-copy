@@ -3,70 +3,67 @@ import React from 'react'
 import {connect} from 'dva'
 import {ListView} from 'antd-mobile'
 import Loading from '../../../components/loading-nomore/bottom-tip'
+import {removeScrollListener, scrollLoadMore} from "../../../utils/common";
 
 const Item = List.Item;
 const Brief = Item.Brief;
 
 
-class WalletList extends React.Component{
-    componentDidMount(){
-        const {getList} = this.props;
+class WalletList extends React.Component {
+    componentDidMount() {
+        let {loadMore, getList} = this.props;
         getList();
+        scrollLoadMore(() => {
+            loadMore()
+        })
     }
-    renderRow = (item) => {
-         return <Item
-            extra={<div><p className={item.金额 > 0 ? 'up-color' : 'down-color'}
-                           style={{fontSize: '.16rem'}}>{new Number(item.金额).toFixed(2)}</p><p>账号:{item.账号}</p></div>}
-        ><p style={{fontSize: '.16rem', color: '#999'}}>{item.类型}</p>
-            <Brief style={{fontSize: '.12rem'}}>{item.日期}</Brief>
-        </Item>
+
+    componentWillUnmount() {
+        removeScrollListener()
     }
-    render(){
-        const hei = document.documentElement.clientHeight - 370;
-        const {...rest} = this.props
-        return(
+
+    render() {
+        const {list, nomore} = this.props
+        return (
             <List
                 renderHeader={'资金明细'}
             >
-                <ListView
-                    dataSource={rest.dataSource}
-                    renderRow={this.renderRow}
-                    onEndReached={rest.loadMore}
-                    onEndReachedThreshold={200}
-                    onScroll={(test) => {
-                        // console.log(test);
-                    }}
-                    scrollRenderAheadDistance={100}
-                    pageSize={3}
-                    renderFooter={() => <Loading nomore={rest.nomore}/>}
-                    showsVerticalScrollIndicator={false}
-                    style={{
-                        height: hei + 'px',
-                        overflow: 'auto',
-                    }}
-                />
+                {list.map((item, index) => (
+                    <Item
+                        key={'my_wallet_' + index}
+                        extra={<div><p className={item.金额 > 0 ? 'up-color' : 'down-color'}
+                                       style={{fontSize: '.16rem'}}>{new Number(item.金额).toFixed(2)}</p>
+                            <p>账号:{item.账号}</p></div>}
+                    ><p style={{fontSize: '.16rem', color: '#999'}}>
+                        {item.类型 === '劣后' ? '自有' : item.类型}
+                        <span style={{marginLeft:'3px',fontSize:'14px'}} className={item.金额 > 0 ? 'up-color' : 'down-color'}>({item.金额 > 0 ? '入账' : '出账'})</span>
+                        </p>
+                        <Brief style={{fontSize: '.12rem'}}>{item.日期}</Brief>
+                    </Item>
+                ))}
+                <Loading nomore={nomore}/>
+
             </List>
         )
     }
 }
 
 const mapStateToProps = state => ({
-    dataSource:state.myWallet.dataSource,
-    nomore:state.myWallet.nomore
+    list: state.myWallet.list,
+    nomore: state.myWallet.nomore
 })
 
 const mapDispatchToProps = dispatch => ({
-    getList:() => {
+    getList: () => {
         dispatch({
-            type:'myWallet/getList'
+            type: 'myWallet/getList'
         })
     },
-    loadMore:() => {
-        console.log(123)
+    loadMore: () => {
         dispatch({
-            type:'myWallet/loadMore'
+            type: 'myWallet/loadMore'
         })
     }
 })
 
-export default connect(mapStateToProps,mapDispatchToProps)(WalletList)
+export default connect(mapStateToProps, mapDispatchToProps)(WalletList)

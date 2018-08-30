@@ -5,6 +5,7 @@ import config from '../../../utils/config'
 
 export default {
     namespace: 'login',
+    autologin:false,
     state: {
         pickerData:[
             {label:'实盘',value:0,choose:true},
@@ -55,16 +56,22 @@ export default {
                 }
             }
         },
-        *autoLogin({},{call}){
-            const account = localStorage.getItem(config.ACCOUNT);
-            const password = localStorage.getItem(config.PASSWORD);
-            const {data} = yield call(LoginServices.Login,{account:account,password:password});
+        *autoLogin({},{call,put}){
+            yield put({
+                type:'assignAutoLogin',
+                bool:true
+            })
+            const key = localStorage.getItem(config.KEY);
+            // localStorage.removeItem(config.KEY);
+            const {data} = yield call(LoginServices.getKey,{key:key});
             if(data){
                 if(data.状态){
                     localStorage.setItem(config.KEY,data.key);
-                    localStorage.setItem(config.CID,data.cid);
-                    localStorage.setItem(config.ACCOUNT,data.account);
                 }
+                yield put({
+                    type:'assignAutoLogin',
+                    bool:false
+                })
             }
         },
         *loginOut({},{}){
@@ -75,7 +82,7 @@ export default {
                 },
                 {
                     text: '确定', onPress: () => {
-                        localStorage.removeItem(config.CID);
+                        // localStorage.removeItem(config.CID);
                         localStorage.removeItem(config.KEY);
                         router.push('login')
                     }
@@ -85,6 +92,12 @@ export default {
     },
 
     reducers: {
+        assignAutoLogin(state,{bool}){
+          return {
+              ...state,
+              autologin:bool
+          }
+        },
         assignPwdCash(state){
             return {
                 ...state,

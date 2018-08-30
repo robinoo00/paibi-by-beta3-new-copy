@@ -1,29 +1,25 @@
-import CSSModules from 'react-css-modules'
-import styles from '../styles/tpl.css'
 import {connect} from 'dva'
-import Header from '../../../components/header/header'
-import Nav from './nav'
+import Header from '../../../components/header2/header'
 import List from './list'
 import React from 'react'
+import DateChoose from './dateChoose'
+import styles from '../styles/tpl.css'
 
-class Example extends React.Component{
-    // componentDidMount(){
-    //     const {getList} = this.props;
-    //     getList();
-    // }
-    render(){
+class Example extends React.Component {
+    render() {
         const {...rest} = this.props;
-        return(
+        return (
             <div>
-                {/*<Header*/}
-                    {/*url={'/personal'}*/}
-                    {/*title={<div onClick={rest.show}*/}
-                                {/*styleName={rest.nav_show ? "switch-tip-up" : "switch-tip-down"}>{rest.nav_choose}</div>}*/}
-                {/*/>*/}
                 <Header
                     title={'出入明细'}
+                    rightText={<span className={styles.calendar}></span>}
+                    rightCallBack={rest.toggleDateFilter}
                 />
-                {/*{rest.nav_show ? <Nav/> : ''}*/}
+                <DateChoose
+                    submit={(start,end) => {rest.submit(start,end)}}
+                    visible={rest.visible}
+                    cancel={rest.cancelDateFilter}
+                />
                 <List/>
             </div>
         )
@@ -31,17 +27,31 @@ class Example extends React.Component{
 }
 
 const mapStateToProps = state => ({
-    nav_show:state.fund.nav_show,
-    nav_choose:state.fund.nav_choose
+    visible: state.fund.time_filter.visible
 })
 
 const mapDispatchToProps = (dispatch, props) => ({
-    show:() => {
+    submit:(start,end) => {
         dispatch({
-            type:'fund/toggleShow'
+            type:'fund/dateFilter',
+            start:start,
+            end:end
+        })
+        dispatch({
+            type:'fund/getList'
+        })
+    },
+    cancelDateFilter: () => {
+        dispatch({
+            type: 'fund/cancelDateFilter'
+        })
+    },
+    toggleDateFilter: () => {
+        dispatch({
+            type: 'fund/toggleDateFilter'
         })
     }
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Example, styles))
+export default connect(mapStateToProps, mapDispatchToProps)(Example)
 

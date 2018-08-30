@@ -3,6 +3,39 @@
     margin: 8px 0;
     padding: 9px 0 3px;
     background-color: @sectionColor2;
+    position: relative;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+.type-wrap{
+    width: 48px;
+}
+.order-type{
+    position: absolute;
+    left: 12px;
+    top: -3px;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 8px;
+    float: left;
+    border-radius: 2px;
+    color: #fff;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+}
+.name{
+    font-size: 10px;
+    color: @grayColor2;
+    margin-left: 8px;
+}
+.status{
+    font-size: 10px;
+    margin-right: 15px;
+    color: @orangeColor2;
 }
 .info{
     justify-content: space-between;
@@ -32,7 +65,6 @@
 .detail{
     justify-content: space-between;
     padding: 10px 0;
-    font-size: 8px;
     height: 65px;
 }
 .trades{
@@ -82,6 +114,14 @@
     margin-bottom: 12px;
     white-space: nowrap;
 }
-
-
+.footer{
+    justify-content: space-between;
+}
+.reback{
+    color: @grayColor2;
+    border:1px solid @grayColor2;
+    border-radius:3px;
+    padding: 2px 6px;
+    margin-right: 15px;
+}
 

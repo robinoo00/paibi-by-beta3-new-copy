@@ -4,7 +4,7 @@ import {connect} from 'dva'
 import router from 'umi/router'
 
 const OrderBtn = () => (
-    <div styleName="container" onClick={() => {router.push('OTCOrder')}}>
+    <div styleName="container" onClick={() => {router.push('OTCSubmitOrder')}}>
 
     </div>
 )

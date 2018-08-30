@@ -1,7 +1,7 @@
 export default {
     server:'http://101.132.17.195:8888/api/',
     server2:'http://101.132.17.195:8888/usdt/',
-    UN_SHOW_LOADING_URLS:['getinfo','gettpsllist','holding','order','holdingcoms','login','register','chujin'],//单独设置的加载回调接口（其它的都会使用通用加载动画）
+    UN_SHOW_LOADING_URLS:['myorder','orderlist','myorderpaymentdetailed','mypaymentdetailed','getinfo','gettpsllist','holding','order','holdingcoms','login','register','chujin'],//单独设置的加载回调接口（其它的都会使用通用加载动画）
     KEY:'key',
     CID:'cid',
     K_DATA_LIST:'k_data_list',//首页列表session数据
@@ -21,5 +21,5 @@ export default {
     HasFooterPages:['/tradeList','/personal','/home','/','/leaders','/OTCTradeList'],//有底部tab的页面
     NoAutoLogin:['/register','/login','/agreement'],//不需要自动登录的页面
     NoTokenPages:['/','/register','/login','/test','/agreement'],//不需要授权就可登录的页面
-    Theme2_comp:['/OTCWalletEdit','/OTCWalletSettings','/OTCWalletSetting','/OTCTradeList','/OTCTradeDetail','/OTCOrder','/OTCOrders','/OTCCashConversion','/OTCWallet','/OTCOrderDetail','/myWallet']
+    Theme2_comp:['/fund','/OTCSubmitOrderDetail','/OTCMySubmitOrder','/OTCWalletEdit','/OTCWalletSettings','/OTCWalletSetting','/OTCTradeList','/OTCTradeDetail','/OTCSubmitOrder','/OTCMyReceiveOrders','/OTCCashConversion','/OTCWallet','/OTCReceiveOrderDetail','/myWallet']
 }

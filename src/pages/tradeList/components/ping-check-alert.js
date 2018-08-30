@@ -4,24 +4,70 @@ import {Flex, Toast, Modal} from 'antd-mobile'
 import {connect} from 'dva'
 import React from 'react'
 
+let shouldRender = true
+let assignNum = false
+
 class Item extends React.Component {
+    state = {
+        visible:false,
+        num:1,
+        item:{}
+    }
+    constructor(props){
+        super(props)
+    }
+    componentWillReceiveProps(nextProps){
+        if(nextProps.visible != this.state.visible){
+            shouldRender = true
+            this.setState({
+                visible: nextProps.visible,
+                item: nextProps.item
+            })
+        }else{
+            shouldRender = false
+        }
+    }
+    shouldComponentUpdate(nextProps, nextState){
+        if(shouldRender || assignNum){
+            return true
+        }else{
+            return false
+        }
+    }
+    _hide = () => {
+        const {hide} = this.props
+        hide()
+    }
+    _submit = () => {
+        const {submit} = this.props
+        submit(this.state.num)
+    }
+    _handleNum = (num) => {
+        let item = this.state.item
+        if(num > 0 && num <= item.数量){
+            assignNum = true
+            this.setState({
+                num:num
+            },() => {
+                assignNum = false
+            })
+        }
+    }
     render() {
-        const {submit,item, hidePingModal, visible,assignPingNum,num} = this.props;
+        const {item,num} = this.state
         return (
             <div>
                 <Modal
-                    visible={visible}
+                    visible={this.props.visible}
                     transparent
                     maskClosable={true}
-                    onClose={() => {hidePingModal()}}
+                    onClose={this._hide}
                     title="确认平仓?"
                     footer={
                         [
-                            {text: '取消', onPress: hidePingModal},
+                            {text: '取消', onPress: this._hide},
                             {
-                                text: '确定', onPress: () => {
-                                    submit(item)
-                                }
+                                text: '确定', onPress: this._submit
                             },
                         ]
                     }
@@ -35,11 +81,11 @@ class Item extends React.Component {
                         <Flex><Flex.Item styleName={'left'}>开仓价:</Flex.Item>&nbsp;&nbsp;<Flex.Item>{item.均价}</Flex.Item></Flex>
                         <Flex><Flex.Item styleName={'left'}>当前价:</Flex.Item>&nbsp;&nbsp;
                             <Flex.Item>{item.当前价}</Flex.Item></Flex>
+                        <Flex><Flex.Item styleName={'left'}>持有数:</Flex.Item>&nbsp;&nbsp;
+                            <Flex.Item>{item.数量}</Flex.Item></Flex>
                         <Flex styleName="num-choose">
                             <Flex.Item>
-                                <div styleName="del-item" onClick={() => {
-                                    assignPingNum(num - 1)
-                                }}>-
+                                <div styleName="del-item" onClick={() => {this._handleNum(num - 1)}}>-
                                 </div>
                             </Flex.Item>
                             <Flex.Item>
@@ -48,9 +94,7 @@ class Item extends React.Component {
                                 </div>
                             </Flex.Item>
                             <Flex.Item>
-                                <div styleName="add-item" onClick={() => {
-                                    assignPingNum(num + 1)
-                                }}>+
+                                <div styleName="add-item" onClick={() => {this._handleNum(num + 1)}}>+
                                 </div>
                             </Flex.Item>
                         </Flex>
@@ -61,60 +105,4 @@ class Item extends React.Component {
     }
 }
 
-// const Item = ({item,num,hidePingModal,visible,assignPingNum}) => (
-//
-// )
-
-// const Item = ({item,del,add,num}) => (
-//     <div>
-//         <p style={{color: '#bcbcbc'}}> 合约号:{item.合约}</p>
-//         <br/>
-//         <Flex><Flex.Item styleName={'left'}>浮动盈亏:</Flex.Item>&nbsp;&nbsp;<Flex.Item
-//             style={{color: '#E34C4D'}}>{item.浮动盈亏}</Flex.Item></Flex>
-//         <Flex><Flex.Item styleName={'left'}>开仓价:</Flex.Item>&nbsp;&nbsp;<Flex.Item>{item.均价}</Flex.Item></Flex>
-//         <Flex><Flex.Item styleName={'left'}>当前价:</Flex.Item>&nbsp;&nbsp;<Flex.Item>{item.当前价}</Flex.Item></Flex>
-//         <Flex styleName="num-choose">
-//             <Flex.Item>
-//                 <div styleName="del-item" onClick={del}>-</div>
-//             </Flex.Item>
-//             <Flex.Item>
-//                 <div styleName="num-input">
-//                     <input type="number" value={num}/>
-//                 </div>
-//             </Flex.Item>
-//             <Flex.Item>
-//                 <div styleName="add-item" onClick={add}>+</div>
-//             </Flex.Item>
-//         </Flex>
-//     </div>
-// )
-
-const mapStateToProps = state => ({
-    item: state.tradeList.ping_modal.item,
-    visible: state.tradeList.ping_modal.show,
-    num: state.tradeList.ping_modal.num
-})
-
-const mapDispatchToProps = dispatch => ({
-    assignPingNum: (num) => {
-        dispatch({
-            type: 'tradeList/assignPingNum',
-            num: num
-        })
-    },
-    hidePingModal: () => {
-        console.log(123);
-        dispatch({
-            type: 'tradeList/hidePingModal'
-        })
-    },
-    submit: (item) => {
-        dispatch({
-            type: 'tradeList/ping',
-            direction: item.方向 === "买入" ? 0 : 1,
-            code: item.合约
-        })
-    }
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Item, styles))
+export default CSSModules(Item, styles)

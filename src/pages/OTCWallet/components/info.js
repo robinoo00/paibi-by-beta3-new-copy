@@ -8,18 +8,20 @@ const Info = ({info,assignHide,hide}) => (
         <div styleName={hide ? "close" : "eye"} onClick={assignHide}></div>
         <div styleName="header">资产估值</div>
         <Flex styleName="con">
-            {info.map(item => (
-                <Flex.Item key={item.title} styleName="item">
-                    <div styleName="title">{item.title}</div>
-                    <div styleName="value">{hide ? "****" : item.value}</div>
-                </Flex.Item>
-            ))}
+            <Flex.Item styleName="item">
+                <div styleName="title">可用余额</div>
+                <div styleName="value">{hide ? "****" : info.可用币}</div>
+            </Flex.Item>
+            <Flex.Item styleName="item">
+                <div styleName="title">冻结余额</div>
+                <div styleName="value">{hide ? "****" : info.冻结币}</div>
+            </Flex.Item>
         </Flex>
     </div>
 )
 
 const mapStateToProps = state => ({
-    info:state.OTCWallet.info,
+    info:state.personal.info,
     hide:state.OTCWallet.hide
 })
 

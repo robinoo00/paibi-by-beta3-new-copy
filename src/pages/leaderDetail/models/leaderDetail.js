@@ -88,19 +88,21 @@ export default {
         },
         * getList({id}, {put, call}) {
             const {data} = yield call(LeaderDetailServices.getList, {tid: id});
-            data.品种统计 = JSON.parse(data.品种统计);
-            data.平仓记录 = JSON.parse(data.平仓记录);
-            data.品种统计.map((item, index) => {
-                if (typeof colors[index] != 'undefined') {
-                    item['color'] = colors[index];
-                } else {
-                    item['color'] = randomColor();
-                }
-            })
-            yield put({
-                type: 'assignData',
-                data: data
-            })
+            if(data){
+                data.品种统计 = JSON.parse(data.品种统计);
+                data.平仓记录 = JSON.parse(data.平仓记录);
+                data.品种统计.map((item, index) => {
+                    if (typeof colors[index] != 'undefined') {
+                        item['color'] = colors[index];
+                    } else {
+                        item['color'] = randomColor();
+                    }
+                })
+                yield put({
+                    type: 'assignData',
+                    data: data
+                })
+            }
         }
     }
 }

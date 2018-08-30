@@ -3,15 +3,15 @@ import styles from './header2.less'
 import {connect} from 'dva'
 import router from 'umi/router'
 
-function _renderBack(back = true,title,callbak){
+function _renderBack(rest){
+    let back = typeof rest.back != 'undefined' ? rest.back : true
     if(back){
-        return <div styleName="icon-back" onClick={callbak ? callbak : () => {
+        return <div styleName="icon-back" onClick={rest.leftCallBack ? rest.leftCallBack : () => {
             router.goBack()
-        }}>{title}</div>
+        }}></div>
     }else{
-        return <div styleName="nav-left" onClick={callbak ? callbak : () => {
-            router.goBack()
-        }}>{title}</div>
+        return <div styleName="nav-left" onClick={rest.leftCallBack ? rest.leftCallBack : () => {
+        }}>{rest.leftText}</div>
     }
 }
 
@@ -20,7 +20,7 @@ const Header = ({...rest}) => (
         <div styleName="header-wrap"
              style={{backgroundColor: rest.bgColor ? rest.bgColor : rest.headerColor}}>
             <h3 onClick={rest.callBack}>{rest.title}</h3>
-            {_renderBack(rest.back,rest.leftText,rest.leftCallBack)}
+            {_renderBack(rest)}
             <div styleName="nav-right" onClick={rest.rightCallBack}>
                 {rest.rightText}
             </div>

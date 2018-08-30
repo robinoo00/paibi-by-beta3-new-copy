@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'iconfont';  /* project id 692838 */
-    src: url('//at.alicdn.com/t/font_692838_3s4qw74ub9x.eot');
-    src: url('//at.alicdn.com/t/font_692838_3s4qw74ub9x.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_692838_3s4qw74ub9x.woff') format('woff'),
-    url('//at.alicdn.com/t/font_692838_3s4qw74ub9x.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_692838_3s4qw74ub9x.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_692838_mc6c0fgc7hb.eot');
+    src: url('//at.alicdn.com/t/font_692838_mc6c0fgc7hb.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_692838_mc6c0fgc7hb.woff') format('woff'),
+    url('//at.alicdn.com/t/font_692838_mc6c0fgc7hb.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_692838_mc6c0fgc7hb.svg#iconfont') format('svg');
 }
 
 * {
@@ -197,6 +197,9 @@ html:not([data-scale]) .am-button-primary::before{
 }
 .theme2 .am-list-header{
     padding: 15px !important;
+}
+.theme2 .list .am-list-body{
+    background-color: rgba(255,255,255,0);
 }
 /*theme2  antd-mobile reset end*/
 

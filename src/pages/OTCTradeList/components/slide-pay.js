@@ -27,6 +27,11 @@ const mapDispatchToProps = dispatch => ({
             type:'OTCTradeList/choosePayType',
             title:title
         })
+        setTimeout(() => {
+            dispatch({
+                type:'OTCTradeList/hideSlide'
+            })
+        },150)
     }
 })
 

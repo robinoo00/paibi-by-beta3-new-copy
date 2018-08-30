@@ -38,15 +38,15 @@ class TradeListHeader extends React.Component{
                 {/*</div>*/}
                 <Flex styleName="finance-wrap">
                     <Flex.Item styleName="finance-list">
-                        <p styleName="finance-txt">可用资金</p>
+                        <p styleName="finance-txt">可用</p>
                         <p styleName="fianace-num">{info.可用资金}</p>
                     </Flex.Item>
                     <Flex.Item styleName="finance-list">
-                        <p styleName="finance-txt">劣后资金</p>
+                        <p styleName="finance-txt">自有</p>
                         <p styleName="fianace-num">{info.劣后资金}</p>
                     </Flex.Item>
                     <Flex.Item styleName="finance-list">
-                        <p styleName="finance-txt">优先资金</p>
+                        <p styleName="finance-txt">授信</p>
                         <p styleName="fianace-num">{info.优先资金}</p>
                     </Flex.Item>
                 </Flex>

@@ -4,7 +4,7 @@ import Setting from './setting'
 import List from './list'
 
 const Index = () => (
-    <div>
+    <div className={'list'}>
         <Header
             title={'法币账户'}
         />

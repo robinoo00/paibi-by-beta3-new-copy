@@ -1,0 +1,41 @@
+@import '../../../config';
+
+.container{
+    position: absolute;
+    top: 51px;
+    background-color: @sectionColor2;
+    height: 50px;
+    width: 100%;
+    z-index: 100000;
+    align-items: center;
+    box-shadow: 0 2px 3px #646464;
+}
+.date-wrap{
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 .1rem;
+}
+.date-input,.date-input-choose{
+    width: 100px;
+    border-bottom: 1px solid @grayColor2;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: @grayColor2;
+}
+.date-input-choose{
+    border-bottom: 1px solid @blueColor2;
+    color: @blueColor2;
+}
+.search{
+    margin-right: 8px;
+}
+.cancel{
+    margin: 0 8px;
+}
+.cancel:before{
+    content:'\e643';
+    font-family: iconfont;
+    font-size: 20px;
+}

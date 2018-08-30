@@ -23,6 +23,10 @@ const mapDispatchToProps = dispatch => ({
         dispatch({
             type:'OTCCashConversion/assignSwitchType'
         })
+        dispatch({
+            type: 'OTCCashConversion/assignNum',
+            num: 0
+        })
     }
 })
 

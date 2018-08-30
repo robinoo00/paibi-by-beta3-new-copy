@@ -11,7 +11,7 @@ class Layout extends React.Component{
         const {assignList,autoLogin,location} = this.props;
         const {NoAutoLogin} = config;
         if(!NoAutoLogin.includes(location.pathname)){
-            autoLogin();
+            autoLogin()
         }
         window.work.client.GetFSData = function (data) {
             // console.log(JSON.parse(data))
@@ -54,6 +54,13 @@ class Layout extends React.Component{
             }
         };
     }
+    // shouldComponentUpdate(nextProps, nextState){
+    //     if(nextProps.autologin){
+    //         return false
+    //     }else{
+    //         return true
+    //     }
+    // }
     render(){
         const {children,location} = this.props;
         const pathname = location.pathname;
@@ -70,7 +77,8 @@ class Layout extends React.Component{
 }
 
 const mapStateToProps = state => ({
-    type_choose:state.k.type_choose
+    type_choose:state.k.type_choose,
+    autologin:state.login.autologin
 })
 
 const mapDispatchToProps = dispatch =>({

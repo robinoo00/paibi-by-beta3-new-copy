@@ -7,10 +7,21 @@ import ItemSell from './item-sell'
 import ItemTrade from './item-trade'
 import router from 'umi/router'
 
+let id = 0
+
 class ListTabs extends React.Component{
     componentDidMount(){
-        const {getList} = this.props
+        const {getList,refresh} = this.props
         getList()
+        id = setInterval(() => {
+            refresh()
+        },3000)
+
+    }
+    componentWillUnmount(){
+        const {clearList} = this.props;
+        clearList()
+        clearInterval(id)
     }
     render(){
         const {...rest} = this.props;
@@ -40,9 +51,19 @@ const mapDispatchToProps = dispatch => ({
             type: 'OTCTradeList/getList',
         })
     },
+    refresh:() => {
+        dispatch({
+            type: 'OTCTradeList/refresh',
+        })
+    },
+    clearList: () => {
+        dispatch({
+            type: 'OTCTradeList/clearList',
+        })
+    },
     choose:(tab, index) => {
         if(index === 3){
-            router.push('OTCOrders')
+            router.push('OTCMyReceiveOrders')
             return;
         }
         dispatch({

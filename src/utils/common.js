@@ -36,7 +36,7 @@ export function getScrollPos(){
     }
     return scrollPos;
 }
-//获取时间
+//根据时间戳获取时间格式
 export function getFormatTime(stampTime = (new Date()).getTime(),string = 'yyyy-MM-dd'){
     Date.prototype.Format = function (fmt) {
         var o = {
@@ -136,5 +136,52 @@ export function setTheme2(pathname){
         root.style.color = theme.Theme1FontColor
         root.classList.add('theme1')
         root.classList.remove('theme2')
+    }
+}
+//暂停
+export function sleep(numberMillis) {
+    var now = new Date();
+    var exitTime = now.getTime() + numberMillis;
+    while (true) {
+        now = new Date();
+        if (now.getTime() > exitTime)
+            return;
+    }
+}
+
+export function FormatAfterDotNumber( ValueString, nAfterDotNum )
+{
+    var ValueString,nAfterDotNum ;
+    var resultStr,nTen;
+    ValueString = ""+ValueString+"";
+    var strLen = ValueString.length;
+    var dotPos = ValueString.indexOf(".",0);
+    if (dotPos == -1)
+    {
+        resultStr = ValueString+".";
+        for (let i=0; i<nAfterDotNum ;i++)
+        {
+            resultStr = resultStr+"0";
+        }
+        return resultStr;
+    }
+    else
+    {
+        if ((strLen - dotPos - 1) >= nAfterDotNum ){
+            let nAfter = dotPos + nAfterDotNum  + 1;
+            nTen =1;
+            for(let j=0;j<nAfterDotNum ;j++){
+                nTen = nTen*10;
+            }
+            resultStr = Math.round(parseFloat(ValueString)*nTen)/nTen;
+            return resultStr;
+        }
+        else{
+            resultStr = ValueString;
+            for (let i=0;i<(nAfterDotNum  - strLen + dotPos + 1);i++){
+                resultStr = resultStr+"0";
+            }
+            return resultStr;
+        }
     }
 }

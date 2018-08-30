@@ -6,7 +6,7 @@ import {connect} from 'dva'
 import OrderBtn from './orderBtn'
 
 const Index = ({slideMoneyShow,slidePayTypeShow}) => (
-    <div>
+    <div className={'list'}>
         <Header/>
         <Tabs/>
         {slideMoneyShow ? <SlideMoney/> : null}

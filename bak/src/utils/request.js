@@ -33,8 +33,8 @@ export default function request(url, options) {
     }
     const api = match[1];
     if(!key && api !='login' && api != 'register'){
-        router.push('login');
-        return {data:''};
+        // router.push('login');
+        // return {data:''};
     }
     if(!config.UN_SHOW_LOADING_URLS.includes(api)){
         window.loading('',0);

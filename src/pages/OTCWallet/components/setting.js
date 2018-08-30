@@ -9,6 +9,10 @@ const Setting = () => (
             <div styleName="icon-wallet"></div>
             <div styleName="title">收付款设置</div>
         </Flex.Item>
+        <Flex.Item styleName="item" onClick={() => {router.push('OTCTradeList')}}>
+            <div styleName="icon-market"></div>
+            <div styleName="title">交易市场</div>
+        </Flex.Item>
         <Flex.Item styleName="item" onClick={() => {router.push('OTCCashConversion')}}>
             <div styleName="icon-change"></div>
             <div styleName="title">资金划转</div>

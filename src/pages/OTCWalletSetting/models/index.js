@@ -78,7 +78,7 @@ export default {
         assignHeaderTitle(state, {key}) {
             let title = '';
             switch (key) {
-                case config.ALIPAY:
+                case params.EDIT_ALIPay:
                     title = '设置支付宝'
                     break
             }
@@ -109,7 +109,7 @@ export default {
             keys.map(key => {
                 formData.append(key, value[key])
             })
-            const file = yield select(state => state.OTCWalletSetting.qrcode);
+            const file = yield select(state => state.OTCWalletSetting.qrcode_file);
             if (!file) {
                 Toast.info('请上传收款码')
                 return;

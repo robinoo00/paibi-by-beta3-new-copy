@@ -5,11 +5,12 @@ import Links from './links'
 import React from 'react'
 import {connect} from 'dva'
 // import LaserBeam from 'react-laser-beam';
+import {sleep} from "../../../utils/common";
 
 class Personal extends React.Component{
     componentDidMount(){
         const {getInfo} = this.props;
-        getInfo();
+        getInfo()
     }
     render() {
         const {...rest} = this.props;

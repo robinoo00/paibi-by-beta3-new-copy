@@ -10,3 +10,13 @@ export function Login(values){
         body:values
     })
 }
+
+export function getKey(values){
+    return request(config.server + 'getcid',{
+        method:'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body:values
+    })
+}

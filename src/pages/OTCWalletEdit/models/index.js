@@ -35,8 +35,6 @@ export default {
     },
     reducers: {
         editAccount(state, {account = null, file = null,nickname = null,old_pass = null,new_pass = null}) {
-            console.log(old_pass)
-            console.log(new_pass)
             return {
                 ...state,
                 aliAccount: {

@@ -64,10 +64,9 @@ export default {
             nomore: false,
             empty: false
         },
-        ping_modal: {
-            item:{},
-            show:false,
-            num:0,//平仓数量（所有合约公用，点击平仓，+，-，时赋值）
+        ping_modal:{
+          visible:false,
+          data:{}
         },
         limit_earn: {
             inputs:[
@@ -110,37 +109,22 @@ export default {
             window.hideAll();
             if (data) {
                 if (data.信息 === 'api error') {
-                    Toast.info('交易失败');
+                    Toast.info('交易失败',1);
                 } else {
-                    Toast.info(data.信息)
+                    Toast.info(data.信息,1)
                 }
             }
         },
-        * ping({direction, code}, {put, call, select}) {
-            const num = yield select(state => state.tradeList.ping_modal.num);
+        * ping({num}, {put, select}) {
+            const item = yield select(state => state.tradeList.ping_modal.data);
+            const direction = item.方向 === "买入" ? 0 : 1
+            const code = item.合约
             yield put({
                 type: 'order',
                 direction: direction === 0 ? "卖出" : "买入",
                 num: num,
                 code: code
             })
-            // const {data} = yield call(TradeListServices.getOffect, {symbol: code});
-            // if (data) {
-            //     if (data.手数 === 0) {
-            //         window.toast('还未持仓');
-            //         Toast.hide();
-            //     } else {
-            //         yield put({
-            //             type: 'order',
-            //             direction: direction === 0 ? "卖出" : "买入",
-            //             num: data.手数,
-            //             code: code
-            //         })
-            //     }
-            // } else {
-            //     Toast.info('交易失败');
-            //     Toast.hide();
-            // }
             yield put({
                 type:'hidePingModal'
             })
@@ -151,7 +135,7 @@ export default {
             const action = choose_tab.action;
             const {data} = yield call(action, {page: page});
             loading = false;
-            if (data != '') {
+            if (data) {
                 yield put({
                     type: 'assignList',
                     data: data.data,
@@ -227,6 +211,24 @@ export default {
     },
 
     reducers: {
+        showPingModal(state,{data}){
+            return {
+                ...state,
+                ping_modal:{
+                    visible:true,
+                    data:data
+                }
+            }
+        },
+        hidePingModal(state,{data}){
+            return {
+                ...state,
+                ping_modal:{
+                    ...state.ping_modal,
+                    visible:false
+                }
+            }
+        },
         assignPositionList(state, {data}) {
             const list = JSON.parse(sessionStorage.getItem(config.K_DATA_LIST));
             let k_item;
@@ -342,41 +344,6 @@ export default {
                 limit_earn:{
                     ...state.limit_earn,
                     visible:false
-                }
-            }
-        },
-        assignPingNum(state,{num}){
-            if(num > state.ping_modal.item.数量 || num < 1){
-                return{
-                    ...state
-                }
-            }
-            return {
-                ...state,
-                ping_modal: {
-                    ...state.ping_modal,
-                    num:num,
-                }
-            }
-        },
-        showPingModal(state,{item}){
-            return {
-                ...state,
-                ping_modal: {
-                    item:item,
-                    num:item.数量,
-                    show:true
-                }
-            }
-        },
-        hidePingModal(state){
-            return {
-                ...state,
-                ping_modal: {
-                    ...state.ping_modal,
-                    item:{},
-                    num: 0,
-                    show:false
                 }
             }
         }

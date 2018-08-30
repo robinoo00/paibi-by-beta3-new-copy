@@ -3,7 +3,7 @@ import * as Services from '../services/'
 import * as NewsDetailServices from "../../newsDetail/services/newsDetail";
 
 export default {
-    namespace:'OTCOrders',
+    namespace:'OTCMyReceiveOrders',
     state:{
         tabs: [
             {title: "未完成", choose: false, name:'lis_unfinish'},

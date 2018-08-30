@@ -1,12 +1,10 @@
-import Header from '../../../components/header2/header'
 import Info from './info'
 import Action from './action'
+import Head from './head'
 
 const Index = () => (
     <div>
-        <Header
-            title={'购买USDT'}
-        />
+        <Head/>
         <Info/>
         <Action/>
     </div>

@@ -11,8 +11,18 @@ export function getList(values){
     })
 }
 
-export function getMyList(values){
-    return request(config.server2 + 'mypayment',{
+export function myOrder (values){
+    return request(config.server2 + 'myorder',{
+        method:'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body:values
+    })
+}
+
+export function cancel (values){
+    return request(config.server2 + 'undo',{
         method:'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',

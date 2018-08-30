@@ -1,5 +1,6 @@
 import * as PersonalServices from '../services/personal'
 import {Toast} from 'antd-mobile'
+import config from "../../../utils/config";
 
 export default {
     namespace:'personal',
@@ -22,6 +23,7 @@ export default {
     },
     effects:{
         *getInfo({},{put,call}){
+            const key = localStorage.getItem(config.KEY);
             const {data} = yield call(PersonalServices.getUserInfo,{});
             if(data){
                 yield put({

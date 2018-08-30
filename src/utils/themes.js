@@ -8,4 +8,6 @@ export default {
     Theme2FontColor:'#333',
     Theme2BlueColor:'#5895f0',
     Theme2OrangeColor:'#f76a24',
+    BuyColor:'#13cc99',
+    SellColor:'#E34C4D',
 }
