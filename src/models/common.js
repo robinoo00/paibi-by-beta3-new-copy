@@ -1,18 +1,24 @@
-import config from "../utils/config";
-import router from 'umi/router'
-import {setTheme2} from "../utils/common";
-import theme from '../utils/themes'
+import * as Services from '../services/common'
 
 export default {
     namespace: 'common',
     state: {
-        showInputPassword:false
+        showInputPassword:false,
+        rate:null
     },
     subscriptions: {
     },
 
     effects: {
-
+        * getRate({},{call,put}){
+            const {data} = yield call(Services.getRate)
+            if(data){
+                yield put({
+                    type:'assignExchangeRate',
+                    value:data.汇率
+                })
+            }
+        }
     },
 
     reducers: {
@@ -26,6 +32,12 @@ export default {
             return {
                 ...state,
                 showInputPassword: false
+            }
+        },
+        assignExchangeRate(state,{value}){
+            return {
+                ...state,
+                rate:'￥' + value
             }
         }
     },

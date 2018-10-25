@@ -6,7 +6,7 @@ import {connect} from 'dva'
 const Info = ({info,assignHide,hide}) => (
     <div styleName="container">
         <div styleName={hide ? "close" : "eye"} onClick={assignHide}></div>
-        <div styleName="header">资产估值</div>
+        <div styleName="header"></div>
         <Flex styleName="con">
             <Flex.Item styleName="item">
                 <div styleName="title">可用余额</div>

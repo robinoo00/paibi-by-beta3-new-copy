@@ -4,6 +4,7 @@ import Button from '../../../components/button/button'
 import {createForm} from 'rc-form'
 import styles from '../styles/inputs.less'
 import CSSModules from 'react-css-modules'
+import React from 'react'
 
 const OrderInputs = ({...rest}) => (
     <div>
@@ -12,11 +13,9 @@ const OrderInputs = ({...rest}) => (
         >
             <InputItem
                 placeholder={'请输入交易价格'}
-                onChange={rest.assignValue('price')}
                 type={'digit'}
                 {
                     ...rest.form.getFieldProps('price',{
-                        initialValue:rest.price,
                         rules: [{
                             required: true, message: '请输入交易价格',
                         }],
@@ -34,7 +33,6 @@ const OrderInputs = ({...rest}) => (
                 type={'digit'}
                 {
                     ...rest.form.getFieldProps('number',{
-                        initialValue:rest.num,
                         rules: [{
                             required: true, message: '请输入交易数量',
                         }],
@@ -50,7 +48,7 @@ const OrderInputs = ({...rest}) => (
                 {
                     ...rest.form.getFieldProps('money',{
                         initialValue:rest.form.getFieldValue('price') * rest.form.getFieldValue('number')
-                        ? rest.form.getFieldValue('price') * rest.form.getFieldValue('number')
+                            ? rest.form.getFieldValue('price') * rest.form.getFieldValue('number')
                             : ''
                     })
                 }
@@ -62,21 +60,19 @@ const OrderInputs = ({...rest}) => (
             <Flex styleName={'input-wrap'}>
                 <div styleName="label">单笔限额</div>
                 <Flex styleName="value">
-                    <input {
-                               ...rest.form.getFieldProps('minimum',{
-                                   initialValue:rest.min,
-                                   rules: [{
-                                       required: true, message: '请输入最小限额',
-                                   }],
-                               })
-                           } type="text" styleName="start" placeholder={'0'}/>
+                    <InputItem {
+                                   ...rest.form.getFieldProps('minimum',{
+                                       rules: [{
+                                           required: true, message: '请输入最小限额',
+                                       }],
+                                   })
+                               } type="text" styleName="start" placeholder={'起订量'}/>
                     <span styleName="to">-</span>
-                    <input {
-                               ...rest.form.getFieldProps('maximum',{
-                                   initialValue:rest.max,
-                               })
-                           } type="text" styleName="end" placeholder={'总金额'}/>
-                    <div styleName="lunit">CNY</div>
+                    <InputItem {
+                                   ...rest.form.getFieldProps('maximum',{
+                                   })
+                               } type="text" styleName="end" placeholder={'最大量'}/>
+                    <div styleName="lunit">USDT</div>
                 </Flex>
             </Flex>
             <Flex styleName={'input-wrap'}>
@@ -85,47 +81,32 @@ const OrderInputs = ({...rest}) => (
                     1.订单有效期15分钟，请及时付款并点击「我已支付」按钮。2.币由系统锁定托管，请安心下单
                 </div>
             </Flex>
-            {/*<List.Item>*/}
-                {/*<div style={{whiteSpace:'pre-wrap',lineHeight:'22px'}}>*/}
-                    {/*1.订单有效期15分钟，请及时付款并点击「我已支付」按钮。2.币由系统锁定托管，请安心下单*/}
-                {/*</div>*/}
-            {/*</List.Item>*/}
         </List>
         {/*<div style={{padding:'20px 15px',position:'fixed',bottom:0,width:'100%'}}>*/}
         <div style={{padding:'20px 15px'}}>
             <Button
                 title={'发布交易单'}
-                callBack={rest.submit}
+                callBack={rest.submit(rest.rate,rest.type)}
             />
         </div>
     </div>
 )
 
 const mapStateToProps = state => ({
-    price:state.OTCSubmitOrder.price,
-    num:state.OTCSubmitOrder.num,
-    total:state.OTCSubmitOrder.total,
-    min:state.OTCSubmitOrder.min,
-    max:state.OTCSubmitOrder.max
+    rate:state.common.rate,
+    type:state.OTCSubmitOrder.type
 })
 
 const mapDispatchToProps = (dispatch,props) => ({
-    assignValue:(key) => (val) => {
-      dispatch({
-          type:'OTCSubmitOrder/assignValue',
-          key:key,
-          value:val
-      })
-    },
-    submit:() => {
+    submit:(rate,type) => () => {
         props.form.validateFields({force: true}, (error) => {
             if (!error) {
                 let value = props.form.getFieldsValue();
-                Modal.alert('',
+                Modal.alert(`确认发布(${type})交易单`,
                     <div>
-                        {/*<p>指数价格: 6.82</p>*/}
                         <p>下单价格: {value.price}</p>
                         <p>下单数量: {value.number}</p>
+                        <p>指数价格: {rate}</p>
                     </div>,
                     [
                         {text:'取消',onPress:() => {}},

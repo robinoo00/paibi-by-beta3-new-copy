@@ -15,6 +15,11 @@ class CountDown extends React.Component{
         const order_stampTime = Date.parse(new Date(value))
         const now_stampTime = Date.parse(new Date())
         let stampTime = (order_stampTime + 900000) - now_stampTime
+        console.log('value',value)
+        console.log('order_stampTime',order_stampTime)
+        console.log('now_stampTime',now_stampTime)
+        console.log('test',order_stampTime + 900000)
+        console.log('stampTime',stampTime)
         this.state.date = props.date
         this.state.stampTime = stampTime
         this.state.value = getFormatTime(stampTime,'mm\'ss\"')

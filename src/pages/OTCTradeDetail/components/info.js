@@ -2,6 +2,7 @@ import CSSModules from 'react-css-modules'
 import styles from '../styles/info.less'
 import {Flex} from 'antd-mobile'
 import {connect} from 'dva'
+import {FormatAfterDotNumber} from '../../../utils/common'
 
 const Info = ({data}) => (
     <div styleName="container">
@@ -14,7 +15,7 @@ const Info = ({data}) => (
         </Flex>
         <Flex styleName="trade-detail">
             <Flex>
-                <div styleName="num">{data.成交率 * 100}%</div>
+                <div styleName="num">{FormatAfterDotNumber(data.成交率 * 100,2)}%</div>
                 <div styleName="title">成交率</div>
             </Flex>
             <Flex>

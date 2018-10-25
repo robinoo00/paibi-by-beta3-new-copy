@@ -2,136 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eff12a1-6df3-4a27-aebb-d6acc04fd7ef" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/item.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/models/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/submit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/models/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/action.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/alert.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/info.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/submit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/components/time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/images/qrcode.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/models/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/services/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/styles/action.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/styles/alert.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/styles/info.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/styles/time.less" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bak/src/pages/OTCOrders/components/tabs.js" afterPath="$PROJECT_DIR$/bak/src/pages/OTCOrders/components/tabs.js" />
-      <change beforePath="$PROJECT_DIR$/bak/src/pages/OTCOrders/models/index.js" afterPath="$PROJECT_DIR$/bak/src/pages/OTCOrders/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/bak/src/pages/OTCTradeList/components/tabs.js" afterPath="$PROJECT_DIR$/bak/src/pages/OTCTradeList/components/tabs.js" />
-      <change beforePath="$PROJECT_DIR$/bak/src/utils/request.js" afterPath="$PROJECT_DIR$/bak/src/utils/request.js" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/dist/static/umi.07a76273.css" afterPath="$PROJECT_DIR$/dist/static/umi.07a76273.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/header2/header.js" afterPath="$PROJECT_DIR$/src/components/header2/header.js" />
-      <change beforePath="$PROJECT_DIR$/src/config.less" afterPath="$PROJECT_DIR$/src/config.less" />
       <change beforePath="$PROJECT_DIR$/src/global.css" afterPath="$PROJECT_DIR$/src/global.css" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/footer.js" afterPath="$PROJECT_DIR$/src/layouts/footer.js" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" afterPath="$PROJECT_DIR$/src/layouts/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/style.less" afterPath="$PROJECT_DIR$/src/layouts/style.less" />
-      <change beforePath="$PROJECT_DIR$/src/models/example.js" afterPath="$PROJECT_DIR$/src/models/god.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/inputPassword.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/inputs.js" afterPath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/inputs.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/switch.js" afterPath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/switch.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCCashConversion/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/styles/inputPassword.less" afterPath="$PROJECT_DIR$/src/components/inputPassword/inputPassword.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/components/inputs.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/inputs.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/components/tabs.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/tabs.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/page.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/page.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/services/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrder/styles/inputs.less" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/styles/inputs.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/action.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/action.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/alert.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/alert.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/info.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/info.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/submit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/components/time.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/components/time.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/images/qrcode.jpg" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/images/qrcode.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/models/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/page.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/page.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/services/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/styles/action.less" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/styles/action.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/styles/alert.less" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/styles/alert.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/styles/info.less" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/styles/info.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrderDetail/styles/time.less" afterPath="$PROJECT_DIR$/src/pages/OTCReceiveOrderDetail/styles/time.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/components/item-finish.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/components/list.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/components/tabs.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/tabs.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/models/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/page.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/page.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/services/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCOrders/styles/item.less" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/styles/item.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/action.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/action.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/models/common.js" afterPath="$PROJECT_DIR$/src/models/common.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/notice.js" afterPath="$PROJECT_DIR$/src/pages/OTCCashConversion/components/notice.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/countDown.js" afterPath="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/countDown.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/inputs.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/inputs.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/tabs.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/tabs.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/models/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/styles/inputs.less" afterPath="$PROJECT_DIR$/src/pages/OTCSubmitOrder/styles/inputs.less" />
       <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/info.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/info.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/services/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeDetail/styles/info.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeDetail/styles/info.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-buy.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-buy.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-sell.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-sell.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/header.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/header.js" />
       <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-trade.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-trade.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/list.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/orderBtn.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/orderBtn.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-money.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-money.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-pay.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-pay.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/components/tabs.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/components/tabs.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/services/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/services/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/bBox.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/bBox.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/filter.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/filter.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/item.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/item.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/slide.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/slide.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/components/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/orderBtn.less" afterPath="$PROJECT_DIR$/src/pages/OTCTradeList/styles/orderBtn.less" />
       <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/components/info.js" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/components/info.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/components/list.js" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/components/list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/components/setting.js" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/components/setting.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWallet/styles/setting.less" afterPath="$PROJECT_DIR$/src/pages/OTCWallet/styles/setting.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWalletEdit/components/aliPassword.js" afterPath="$PROJECT_DIR$/src/pages/OTCWalletEdit/components/aliPassword.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWalletEdit/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWalletEdit/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWalletSetting/components/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWalletSetting/components/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWalletSetting/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWalletSetting/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OTCWalletSettings/models/index.js" afterPath="$PROJECT_DIR$/src/pages/OTCWalletSettings/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fund/components/list.js" afterPath="$PROJECT_DIR$/src/pages/fund/components/list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fund/components/tpl.js" afterPath="$PROJECT_DIR$/src/pages/fund/components/tpl.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fund/models/tpl.js" afterPath="$PROJECT_DIR$/src/pages/fund/models/tpl.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fund/styles/tpl.css" afterPath="$PROJECT_DIR$/src/pages/fund/styles/tpl.css" />
-      <change beforePath="$PROJECT_DIR$/src/pages/leaderDetail/models/leaderDetail.js" afterPath="$PROJECT_DIR$/src/pages/leaderDetail/models/leaderDetail.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/components/login.js" afterPath="$PROJECT_DIR$/src/pages/login/components/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/images/qrcode.png" afterPath="$PROJECT_DIR$/src/pages/login/images/qrcode.png" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/models/login.js" afterPath="$PROJECT_DIR$/src/pages/login/models/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/services/login.js" afterPath="$PROJECT_DIR$/src/pages/login/services/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/components/info.js" afterPath="$PROJECT_DIR$/src/pages/myWallet/components/info.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/components/list.js" afterPath="$PROJECT_DIR$/src/pages/myWallet/components/list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/components/setting.js" afterPath="$PROJECT_DIR$/src/pages/myWallet/components/setting.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/models/index.js" afterPath="$PROJECT_DIR$/src/pages/myWallet/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/styles/info.less" afterPath="$PROJECT_DIR$/src/pages/myWallet/styles/info.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/myWallet/styles/setting.less" afterPath="$PROJECT_DIR$/src/pages/myWallet/styles/setting.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personal/components/manager.js" afterPath="$PROJECT_DIR$/src/pages/personal/components/manager.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personal/components/money.js" afterPath="$PROJECT_DIR$/src/pages/personal/components/money.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personal/components/personal.js" afterPath="$PROJECT_DIR$/src/pages/personal/components/personal.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personal/models/personal.js" afterPath="$PROJECT_DIR$/src/pages/personal/models/personal.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/personal/styles/money.less" afterPath="$PROJECT_DIR$/src/pages/personal/styles/money.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/test/page.js" afterPath="$PROJECT_DIR$/src/pages/test/page.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/banner.js" afterPath="$PROJECT_DIR$/src/pages/home/components/banner.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/header.js" afterPath="$PROJECT_DIR$/src/pages/home/components/header.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newsDetail/components/detail.js" afterPath="$PROJECT_DIR$/src/pages/newsDetail/components/detail.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newsDetail/models/newsDetail.js" afterPath="$PROJECT_DIR$/src/pages/newsDetail/models/newsDetail.js" />
       <change beforePath="$PROJECT_DIR$/src/pages/tradeList/components/header.js" afterPath="$PROJECT_DIR$/src/pages/tradeList/components/header.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tradeList/components/ping-check-alert.js" afterPath="$PROJECT_DIR$/src/pages/tradeList/components/ping-check-alert.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tradeList/components/position-list.js" afterPath="$PROJECT_DIR$/src/pages/tradeList/components/position-list.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tradeList/models/tpl.js" afterPath="$PROJECT_DIR$/src/pages/tradeList/models/tpl.js" />
-      <change beforePath="$PROJECT_DIR$/src/utils/common.js" afterPath="$PROJECT_DIR$/src/utils/common.js" />
+      <change beforePath="$PROJECT_DIR$/src/services/example.js" afterPath="$PROJECT_DIR$/src/services/common.js" />
       <change beforePath="$PROJECT_DIR$/src/utils/config.js" afterPath="$PROJECT_DIR$/src/utils/config.js" />
       <change beforePath="$PROJECT_DIR$/src/utils/params.js" afterPath="$PROJECT_DIR$/src/utils/params.js" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" afterPath="$PROJECT_DIR$/src/utils/request.js" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request_bak.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/utils/themes.js" afterPath="$PROJECT_DIR$/src/utils/themes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -145,31 +38,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/models/index.js">
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/news/services/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#383#956#0" expanded="false" />
-                <element signature="e#1006#1104#0" expanded="false" />
-                <element signature="e#1147#1525#0" expanded="false" />
-                <element signature="e#1560#1685#0" expanded="false" />
-                <element signature="e#1707#1866#0" expanded="false" />
-                <element signature="e#2273#3245#0" expanded="false" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aliPassword.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/OTCWalletEdit/components/aliPassword.js">
+      <file leaf-file-name="agreement.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/register/components/agreement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/register/models/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-code.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bak/src/pages/register/components/item-code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tradeList/models/tpl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2025">
+              <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3750">
+              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="186" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/del-input-add/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,115 +119,31 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/inputPassword/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="112" column="42" lean-forward="false" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inputPassword.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/inputPassword/inputPassword.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="umi.07a76273.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/static/umi.07a76273.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="0" column="156815" lean-forward="false" selection-start-line="0" selection-start-column="156815" selection-end-line="0" selection-end-column="156815" />
-              <folding>
-                <element signature="e#10510#10815#2" expanded="true" />
-                <element signature="e#28169#28391#2" expanded="true" />
-                <element signature="e#35256#36375#2" expanded="true" />
-                <element signature="e#36414#38925#2" expanded="true" />
-                <element signature="e#38957#40560#2" expanded="true" />
-                <element signature="e#40599#43602#2" expanded="true" />
-                <element signature="e#43637#45308#2" expanded="true" />
-                <element signature="e#45350#48325#2" expanded="true" />
-                <element signature="e#48361#49364#2" expanded="true" />
-                <element signature="e#49407#52002#2" expanded="true" />
-                <element signature="e#59227#59959#2" expanded="true" />
-                <element signature="e#60139#61072#2" expanded="true" />
-                <element signature="e#63725#64011#2" expanded="true" />
-                <element signature="e#64577#65323#2" expanded="true" />
-                <element signature="e#73484#74231#1" expanded="true" />
-                <element signature="e#74755#75428#2" expanded="true" />
-                <element signature="e#132564#132786#2" expanded="true" />
-                <element signature="e#136024#136518#2" expanded="true" />
-                <element signature="e#144004#145843#2" expanded="true" />
-                <element signature="e#145916#147559#2" expanded="true" />
-                <element signature="e#147632#149319#2" expanded="true" />
-                <element signature="e#149392#151319#2" expanded="true" />
-                <element signature="e#170746#171493#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/OTCWalletEdit/models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="322">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
-                <element signature="e#481#951#0" expanded="false" />
-                <element signature="e#1720#1817#0" expanded="false" />
-                <element signature="e#1854#2526#0" expanded="false" />
-                <element signature="e#2547#4373#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="god.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/god.js">
+      <file leaf-file-name="config.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/common.js">
+      <file leaf-file-name="inputPassword.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/inputPassword/inputPassword.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/components/action.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -303,36 +160,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>config</find>
-      <find>config.ALIPAY</find>
-      <find>body</find>
-      <find>console</find>
-      <find>getList</find>
-      <find>rightText</find>
-      <find>chooseFilter</find>
-      <find>chooseMoneyType</find>
-      <find>discuss</find>
-      <find>getInfo</find>
-      <find>width</find>
-      <find>submit</find>
-      <find>icon-get</find>
-      <find>icon-wallet</find>
-      <find>loadMore</find>
-      <find>loading</find>
-      <find>styleName</find>
-      <find>className</find>
-      <find>show</find>
-      <find>search</find>
-      <find>cancel</find>
-      <find>freeze</find>
-      <find>value</find>
-      <find>trade-detail</find>
+      <find>routerBase</find>
+      <find>window.publicPath</find>
+      <find>publicPath</find>
+      <find>height:.98rem</find>
+      <find>dialog</find>
+      <find>checkKey</find>
+      <find>services/ex</find>
+      <find>clearInterval</find>
+      <find>assignValue</find>
+      <find>start</find>
+      <find>num</find>
       <find>price</find>
-      <find>conso</find>
-      <find>console.log</find>
-      <find>editAccount</find>
-      <find>forget</find>
+      <find>type</find>
+      <find>input-wrap</find>
+      <find>Time</find>
+      <find>CountDown</find>
+      <find>getNewsDetail</find>
       <find>static</find>
+      <find>止损</find>
+      <find>setInterval</find>
+      <find>index/Kdata</find>
+      <find>47.100.0.80</find>
+      <find>getFormatTime</find>
+      <find>setTheme2</find>
+      <find>ListView</find>
+      <find>验证码</find>
+      <find>countDown</find>
+      <find>请输入止盈点</find>
+      <find>blueColo</find>
+      <find>wrao</find>
     </findStrings>
     <replaceStrings>
       <replace>5s</replace>
@@ -370,36 +227,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/header2/header.js" />
-        <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-money.js" />
-        <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/slide-pay.js" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/components/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/OTCCashConversion/components/switch.js" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/styles/setting.less" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/components/setting.js" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/models/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/fund/styles/tpl.css" />
-        <option value="$PROJECT_DIR$/src/pages/fund/components/datePicker.js" />
-        <option value="$PROJECT_DIR$/src/pages/test/page.js" />
-        <option value="$PROJECT_DIR$/src/pages/test/dateChoose.js" />
-        <option value="$PROJECT_DIR$/src/pages/fund/models/tpl.js" />
-        <option value="$PROJECT_DIR$/src/global.css" />
-        <option value="$PROJECT_DIR$/src/pages/fund/components/dateChoose.js" />
-        <option value="$PROJECT_DIR$/dist/static/umi.a15640b6.css" />
-        <option value="$PROJECT_DIR$/src/pages/OTCCashConversion/components/inputs.js" />
-        <option value="$PROJECT_DIR$/src/pages/personal/components/money.js" />
-        <option value="$PROJECT_DIR$/src/pages/personal/styles/money.less" />
-        <option value="$PROJECT_DIR$/dist/static/umi.9572f6ff.css" />
-        <option value="$PROJECT_DIR$/src/pages/tradeList/components/header.js" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/components/info.js" />
-        <option value="$PROJECT_DIR$/src/pages/myWallet/styles/info.less" />
-        <option value="$PROJECT_DIR$/dist/static/umi.efb009c1.css" />
-        <option value="$PROJECT_DIR$/src/utils/request.js" />
         <option value="$PROJECT_DIR$/src/layouts/footer.js" />
         <option value="$PROJECT_DIR$/src/layouts/style.less" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/list.js" />
         <option value="$PROJECT_DIR$/src/pages/myWallet/components/list.js" />
-        <option value="$PROJECT_DIR$/src/utils/config.js" />
         <option value="$PROJECT_DIR$/src/pages/fund/components/tpl.js" />
         <option value="$PROJECT_DIR$/src/pages/fund/styles/dateChoose.less" />
         <option value="$PROJECT_DIR$/src/pages/fund/components/list.js" />
@@ -408,19 +239,45 @@
         <option value="$PROJECT_DIR$/dist/static/umi.c2a3cdba.css" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/services/index.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-buy.js" />
-        <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/info.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/header.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/index.js" />
         <option value="$PROJECT_DIR$/src/utils/common.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/head.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/models/index.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCWalletEdit/models/index.js" />
-        <option value="$PROJECT_DIR$/src/models/common.js" />
         <option value="$PROJECT_DIR$/src/pages/OTCWalletEdit/components/aliPassword.js" />
         <option value="$PROJECT_DIR$/src/components/inputPassword/index.js" />
         <option value="$PROJECT_DIR$/src/components/inputPassword/inputPassword.less" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/static/umi.07a76273.css" />
+        <option value="$PROJECT_DIR$/src/pages/OTCCashConversion/components/notice.js" />
+        <option value="$PROJECT_DIR$/src/services/common.js" />
+        <option value="$PROJECT_DIR$/src/global.css" />
+        <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/header.js" />
+        <option value="$PROJECT_DIR$/dist/static/umi.6982e696.css" />
+        <option value="$PROJECT_DIR$/src/pages/OTCTradeList/styles/orderBtn.less" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/styles/inputs.less" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/header.js" />
+        <option value="$PROJECT_DIR$/src/models/common.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/tabs.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCTradeDetail/components/info.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrderDetail/models/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCWalletSetting/components/qrcode.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/countDown.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/models/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCSubmitOrder/components/inputs.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCTradeList/components/item-trade.js" />
+        <option value="$PROJECT_DIR$/src/utils/params.js" />
+        <option value="$PROJECT_DIR$/src/pages/newsDetail/models/newsDetail.js" />
+        <option value="$PROJECT_DIR$/src/pages/newsDetail/components/detail.js" />
+        <option value="$PROJECT_DIR$/src/utils/config.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/banner.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/components/header.js" />
+        <option value="$PROJECT_DIR$/src/pages/tradeList/components/header.js" />
+        <option value="$PROJECT_DIR$/src/pages/OTCWallet/components/info.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/dist/static/umi.84bc4345.css" />
+        <option value="$PROJECT_DIR$/src/pages/tradeList/models/tpl.js" />
       </list>
     </option>
   </component>
@@ -439,10 +296,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="14" />
-    <option name="width" value="1479" />
-    <option name="height" value="1018" />
+    <option name="x" value="595" />
+    <option name="y" value="15" />
+    <option name="width" value="1308" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -478,23 +335,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
@@ -506,6 +354,13 @@
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="del-input-add" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
@@ -518,7 +373,7 @@
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
@@ -531,14 +386,14 @@
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="OTCWalletEdit" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="OTCWalletEdit" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -546,7 +401,7 @@
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="OTCWalletEdit" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -554,22 +409,54 @@
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tradeList" type="462c0819:PsiDirectoryNode" />
+              <item name="OTCMyReceiveOrders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
               <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tradeList" type="462c0819:PsiDirectoryNode" />
+              <item name="OTCMyReceiveOrders" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="OTCMyReceiveOrders" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="paibi-by-beta3-new-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paibi-by-beta3-new-copy" type="b2602c69:ProjectViewProjectNode" />
@@ -581,8 +468,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -592,7 +477,7 @@
     <property name="node.js.selected.package.eslint" value="D:\workspace\react-project\hdl-projects\paibi-by-beta3-new-copy\node_modules\eslint" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.standard" value="D:\workspace\react-project\Back\node_modules\eslint" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jinchan-by-beta3-copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -638,33 +523,51 @@
       <workItem from="1534991396632" duration="17086000" />
       <workItem from="1535250185967" duration="17883000" />
       <workItem from="1535347847494" duration="12065000" />
-      <workItem from="1535416699559" duration="49250000" />
+      <workItem from="1535416699559" duration="66632000" />
+      <workItem from="1535956852138" duration="60000" />
+      <workItem from="1535957090312" duration="3737000" />
+      <workItem from="1536042141050" duration="598000" />
+      <workItem from="1536135194599" duration="637000" />
+      <workItem from="1536196884822" duration="613000" />
+      <workItem from="1536543870532" duration="965000" />
+      <workItem from="1536550895855" duration="9000" />
+      <workItem from="1536634625564" duration="1284000" />
+      <workItem from="1536739806635" duration="1881000" />
+      <workItem from="1536804187986" duration="5236000" />
+      <workItem from="1536827777205" duration="1551000" />
+      <workItem from="1536913231413" duration="897000" />
+      <workItem from="1537250071832" duration="60000" />
+      <workItem from="1537339298393" duration="239000" />
+      <workItem from="1537857221431" duration="29000" />
+      <workItem from="1538019508661" duration="1001000" />
+      <workItem from="1539141531578" duration="56000" />
+      <workItem from="1539141668328" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265689000" />
+    <option name="totallyTimeSpent" value="302540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="14" width="1479" height="1018" extended-state="0" />
+    <frame x="595" y="15" width="1308" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20437457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -700,529 +603,363 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/models/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/item-trade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCWallet/components/list.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/knowledge/components/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="503">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/styles/setting.less">
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/services/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/newsDetail/services/newsDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/styles/tpl.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/newsDetail/components/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="106" lean-forward="false" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/test/dateChoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" column="23" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/test/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/models/tpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="24" />
-          <folding>
-            <element signature="e#588#776#0" expanded="false" />
-            <element signature="e#1478#1889#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/umi.a15640b6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="0" column="153697" lean-forward="false" selection-start-line="0" selection-start-column="153697" selection-end-line="0" selection-end-column="153697" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/components/dateChoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/personal/components/money.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/personal/styles/money.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/umi.9572f6ff.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="0" column="153742" lean-forward="false" selection-start-line="0" selection-start-column="153736" selection-end-line="0" selection-end-column="153742" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCCashConversion/components/inputs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="32" column="107" lean-forward="false" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
-          <folding />
+        <state relative-caret-position="500">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tradeList/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/styles/info.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/umi.efb009c1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="0" column="153742" lean-forward="false" selection-start-line="0" selection-start-column="153736" selection-end-line="0" selection-end-column="153742" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/footer.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/OTCWallet/components/info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="69" column="15" lean-forward="true" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding>
-            <element signature="e#4459#6062#2" expanded="false" />
-            <element signature="e#6102#9105#2" expanded="false" />
-            <element signature="e#10766#12437#2" expanded="false" />
-            <element signature="e#12480#15455#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/components/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/components/tpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/styles/dateChoose.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myWallet/components/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fund/components/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/item-sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/styles/info.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/umi.c2a3cdba.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="0" column="156807" lean-forward="false" selection-start-line="0" selection-start-column="156801" selection-end-line="0" selection-end-column="156807" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/services/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeList/components/item-buy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="158" column="14" lean-forward="false" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#scrollLoadMore#0" expanded="false" />
-            <element signature="e#147#318#0" expanded="false" />
-            <element signature="n#!!block;n#removeScrollListener#0" expanded="false" />
-            <element signature="n#!!block;n#loadMore#0" expanded="false" />
-            <element signature="e#636#675#0" expanded="false" />
-            <element signature="n#!!block;n#getScrollPos#0" expanded="false" />
-            <element signature="e#794#841#0" expanded="false" />
-            <element signature="e#939#1002#0" expanded="false" />
-            <element signature="e#1054#1106#0" expanded="false" />
-            <element signature="n#!!block;n#getFormatTime#0" expanded="false" />
-            <element signature="e#1277#2043#0" expanded="false" />
-            <element signature="e#1295#1665#0" expanded="false" />
-            <element signature="n#!!block;n#copyToClipboard#0" expanded="false" />
-            <element signature="e#2177#2251#0" expanded="false" />
-            <element signature="e#2769#2914#0" expanded="false" />
-            <element signature="e#2927#2968#0" expanded="false" />
-            <element signature="n#!!block;n#randomColor#0" expanded="false" />
-            <element signature="e#3055#3100#0" expanded="false" />
-            <element signature="e#3437#3465#0" expanded="false" />
-            <element signature="n#!!block;n#getvl#0" expanded="false" />
-            <element signature="n#!!block;n#chooseKType#0" expanded="false" />
-            <element signature="e#3893#3940#0" expanded="false" />
-            <element signature="n#!!block;n#setTheme2#0" expanded="false" />
-            <element signature="e#4231#4540#0" expanded="false" />
-            <element signature="e#4544#4853#0" expanded="false" />
-            <element signature="n#!!block;n#sleep#0" expanded="false" />
-            <element signature="e#4991#5082#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/components/head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/components/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/components/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCTradeDetail/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#383#956#0" expanded="false" />
-            <element signature="e#1006#1104#0" expanded="false" />
-            <element signature="e#1147#1525#0" expanded="false" />
-            <element signature="e#1560#1685#0" expanded="false" />
-            <element signature="e#1707#1866#0" expanded="false" />
-            <element signature="e#2273#3245#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/god.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCWalletEdit/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="e#481#951#0" expanded="false" />
-            <element signature="e#1720#1817#0" expanded="false" />
-            <element signature="e#1854#2526#0" expanded="false" />
-            <element signature="e#2547#4373#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/OTCWalletEdit/components/aliPassword.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/inputPassword/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="112" column="42" lean-forward="false" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/inputPassword/inputPassword.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/umi.84bc4345.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="0" column="104631" lean-forward="false" selection-start-line="0" selection-start-column="104631" selection-end-line="0" selection-end-column="104631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/newsDetail/models/newsDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/umi.07a76273.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/.umi/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="0" column="156815" lean-forward="false" selection-start-line="0" selection-start-column="156815" selection-end-line="0" selection-end-column="156815" />
+        <state relative-caret-position="1250">
+          <caret line="50" column="57" lean-forward="false" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tradeList/components/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/market.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/components/countDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/personal/images/person.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.webpackrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/banner1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/banner3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/banner2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/home_icon_crown1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/home_icon_crown2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/home_icon_crown3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/apply.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/arrow-down.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/home_icon_crown4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/nav1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/images/nav2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/OTCMyReceiveOrders/styles/item.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/params.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/themes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header2/header2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header2/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="72" column="67" lean-forward="false" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/news/components/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10510#10815#2" expanded="true" />
-            <element signature="e#28169#28391#2" expanded="true" />
-            <element signature="e#35256#36375#2" expanded="true" />
-            <element signature="e#36414#38925#2" expanded="true" />
-            <element signature="e#38957#40560#2" expanded="true" />
-            <element signature="e#40599#43602#2" expanded="true" />
-            <element signature="e#43637#45308#2" expanded="true" />
-            <element signature="e#45350#48325#2" expanded="true" />
-            <element signature="e#48361#49364#2" expanded="true" />
-            <element signature="e#49407#52002#2" expanded="true" />
-            <element signature="e#59227#59959#2" expanded="true" />
-            <element signature="e#60139#61072#2" expanded="true" />
-            <element signature="e#63725#64011#2" expanded="true" />
-            <element signature="e#64577#65323#2" expanded="true" />
-            <element signature="e#73484#74231#1" expanded="true" />
-            <element signature="e#74755#75428#2" expanded="true" />
-            <element signature="e#132564#132786#2" expanded="true" />
-            <element signature="e#136024#136518#2" expanded="true" />
-            <element signature="e#144004#145843#2" expanded="true" />
-            <element signature="e#145916#147559#2" expanded="true" />
-            <element signature="e#147632#149319#2" expanded="true" />
-            <element signature="e#149392#151319#2" expanded="true" />
-            <element signature="e#170746#171493#1" expanded="true" />
+            <element signature="e#0#54#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/news/components/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/news/models/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/news/services/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/register/components/agreement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/register/models/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bak/src/pages/register/components/item-code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tradeList/models/tpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="186" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/del-input-add/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/inputPassword/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/inputPassword/inputPassword.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

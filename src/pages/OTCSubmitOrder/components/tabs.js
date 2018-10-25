@@ -1,10 +1,13 @@
 import {Tabs} from 'antd-mobile'
 import {connect} from 'dva'
+import themes from '../../../utils/themes'
 
-const OrderTabs = ({tabs,assignValue}) => (
+const OrderTabs = ({tabs,assignValue,type}) => (
     <Tabs
         tabs={tabs}
         // tabBarBackgroundColor={'#262834'}
+        tabBarActiveTextColor={type === '买' ? themes.BuyColor : themes.SellColor}
+        tabBarUnderlineStyle={type === '买' ? {borderColor:themes.BuyColor} : {borderColor:themes.SellColor}}
         onTabClick={assignValue}
     >
 
@@ -12,7 +15,8 @@ const OrderTabs = ({tabs,assignValue}) => (
 )
 
 const mapStateToProps = state => ({
-    tabs:state.OTCSubmitOrder.tabs
+    tabs:state.OTCSubmitOrder.tabs,
+    type:state.OTCSubmitOrder.type
 })
 
 const mapDispatchToProps = dispatch => ({

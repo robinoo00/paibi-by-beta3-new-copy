@@ -18,9 +18,9 @@ class Header extends React.Component{
                      styleName="hastip" onClick={() => {router.push('myInfo')}}/>
                 {/*<span styleName="status">未登录</span>*/}
                 <span styleName="login-in">余额: {money}</span>
-                <div styleName="topup" onClick={() => router.push('payType')}>
-                    充值
-                </div>
+                {/*<div styleName="topup" onClick={() => router.push('payType')}>*/}
+                    {/*充值*/}
+                {/*</div>*/}
             </div>
         )
     }

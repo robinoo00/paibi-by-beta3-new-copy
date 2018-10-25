@@ -10,11 +10,6 @@ export default {
             {title:'我要出售',value:'2'}
         ],
         type:'买',
-        price:'',
-        total:'',
-        num:'',
-        min:'',
-        max:''
     },
     subscriptions:{
         setup({dispatch, history}) {
@@ -22,6 +17,11 @@ export default {
                 if (pathname === '/OTCSubmitOrder') {
                     dispatch({
                         type: 'personal/getInfo'
+                    })
+                    dispatch({
+                        type: 'OTCSubmitOrder/assignValue',
+                        key:'type',
+                        value:'买'
                     })
                 }
             })

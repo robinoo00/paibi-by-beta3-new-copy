@@ -201,6 +201,9 @@ html:not([data-scale]) .am-button-primary::before{
 .theme2 .list .am-list-body{
     background-color: rgba(255,255,255,0);
 }
+.otc-submit-order .am-list-line{
+    padding-right: 0 !important;
+}
 /*theme2  antd-mobile reset end*/
 
 .page {

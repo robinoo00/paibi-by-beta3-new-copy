@@ -18,7 +18,7 @@ class Detail extends React.Component{
                     title={rest.header_title}
                 />
                 {rest.inner_title ? <div>
-                    <div styleName="ourtitle">{sessionStorage.getItem(config.NEW_TITLE)}</div>
+                    <div styleName="ourtitle">{rest.inner_title}</div>
                     <p styleName="tip"></p>
                 </div> : ''}
                 <div styleName="mainmsg">

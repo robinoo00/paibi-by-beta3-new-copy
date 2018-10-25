@@ -38,7 +38,7 @@ const Item = ({item, reback,test}) => (
                 </div>
             </Flex>
         </div>
-        {item.订单状态 === '撤销' || item.订单状态 === '交易' ? null :
+        {item.订单状态 === '撤销' ? null :
             <Flex styleName='footer'>
                 <div></div>
                 <div styleName="reback" onClick={reback(item)}>撤销</div>

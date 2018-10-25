@@ -1,7 +1,8 @@
 export default {
+    ip:'http://101.132.17.195:8886',
     server:'http://101.132.17.195:8888/api/',
     server2:'http://101.132.17.195:8888/usdt/',
-    UN_SHOW_LOADING_URLS:['myorder','orderlist','myorderpaymentdetailed','mypaymentdetailed','getinfo','gettpsllist','holding','order','holdingcoms','login','register','chujin'],//单独设置的加载回调接口（其它的都会使用通用加载动画）
+    UN_SHOW_LOADING_URLS:['change','myorder','orderlist','myorderpaymentdetailed','mypaymentdetailed','getinfo','gettpsllist','holding','order','holdingcoms','login','register','chujin'],//单独设置的加载回调接口（其它的都会使用通用加载动画）
     KEY:'key',
     CID:'cid',
     K_DATA_LIST:'k_data_list',//首页列表session数据

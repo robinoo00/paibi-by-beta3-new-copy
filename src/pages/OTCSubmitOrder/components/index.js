@@ -1,12 +1,10 @@
-import Header from '../../../components/header2/header'
 import Tabs from './tabs'
 import Inputs from './inputs'
+import Header from './header'
 
 const Index = () => (
-    <div>
-        <Header
-            title={'发布交易单'}
-        />
+    <div className={'otc-submit-order'}>
+        <Header/>
         <Tabs/>
         <Inputs/>
     </div>

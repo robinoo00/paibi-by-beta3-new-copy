@@ -21,7 +21,7 @@ class TradeListHeader extends React.Component{
                     title={<div styleName="product-name">
                         余额<span styleName="float-money">{info.可用资金}</span>
                     </div>}
-                    rightText={'充值'}
+                    // rightText={'充值'}
                     rightCallBack={() => {router.push('payType')}}
                 />
                 {/*<div styleName="head_content">*/}
